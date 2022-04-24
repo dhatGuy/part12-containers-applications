@@ -1,187 +1,359 @@
-Script started on 2022-04-24 15:37:50+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="114" LINES="11"]
-[1m[7m%[27m[1m[0m                                                                                                                  ]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications]1;..-applications[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[32md[39m[32md[39m[90mocker start [90ma[90mwesome_banach -i[39m[K[A[85C[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32md[0m[32mo[0m[32mc[0m[32mk[0m[32me[32mr[39m[39m [39m[4ms[24m[24ms[39mt[39ma[39mr[39mt[39m [90ma[39m[39maa[39mw[39me[39ms[39mo[39mm[39me[39m_[39mb[39ma[39mn[39ma[39mc[39mh[39m [39m-[39mi[?1l>[?2004l
-]2;docker start awesome_banach -i]1;docker]0;root@120e2e884d96: /root@120e2e884d96:/# [K]0;root@120e2e884d96: /root@120e2e884d96:/# ao pt-get install -y curl
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 39%Reading package lists... 58%Reading package lists... 58%Reading package lists... 59%Reading package lists... 59%Reading package lists... 69%Reading package lists... 69%Reading package lists... 75%Reading package lists... 75%Reading package lists... 79%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 89%Reading package lists... 89%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+Script started on 2022-03-18 17:23:46+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="114" LINES="11"]
+[1m[7m%[27m[1m[0m                                                                                                                 
+ 
+]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications]1;..-applications
+[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[32md[39m[32md[39m[90mocker st[90ma[90mrt -i stupefied_booth[39m[K[A[84C[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[0m[32md[0m[32mo[0m[32mc[32mk[32me[32mr[39m[39m [39ms[39mta[39mr[39mt[39m [39m-[39mi[39m [39ms[39mt[39mu[39mp[39me[39mf[39mi[39me[39md[39m_[39mb[39mo[39mo[39mt[39mh[?1l>[?2004l
+
+]2;docker start -i stupefied_booth]1;docker]0;root@f5d0475a9aba: /root@f5d0475a9aba:/# 
+[K]0;root@f5d0475a9aba: /root@f5d0475a9aba:/# curl -sL https://deb.nodesource.com/setup_16.x | bash
+install -y nodejsbash: curl: command not found
+]0;root@f5d0475a9aba: /root@f5d0475a9aba:/# [Kapt install -y nodejs
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 6%
+
+Reading package lists... 60%
+
+Reading package lists... 60%
+
+Reading package lists... 61%
+
+Reading package lists... 61%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 76%
+
+Reading package lists... 76%
+
+Reading package lists... 81%
+
+Reading package lists... 81%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 82%
+
+Reading package lists... 90%
+
+Reading package lists... 90%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 33%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 The following additional packages will be installed:
-  ca-certificates krb5-locales libasn1-8-heimdal libbrotli1 libcurl4 libgssapi-krb5-2 libgssapi3-heimdal
-  libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal libhx509-5-heimdal libk5crypto3 libkeyutils1
-  libkrb5-26-heimdal libkrb5-3 libkrb5support0 libldap-2.4-2 libldap-common libnghttp2-14 libpsl5
-  libroken18-heimdal librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libsqlite3-0 libssh-4 libssl1.1
-  libwind0-heimdal openssl publicsuffix
+  ca-certificates libc-ares2 libicu66 libnghttp2-14 libnode64 libssl1.1 libuv1 nodejs-doc openssl tzdata
 Suggested packages:
-  krb5-doc krb5-user libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap
-  libsasl2-modules-otp libsasl2-modules-sql
+  npm
 The following NEW packages will be installed:
-  ca-certificates curl krb5-locales libasn1-8-heimdal libbrotli1 libcurl4 libgssapi-krb5-2 libgssapi3-heimdal
-  libhcrypto4-heimdal libheimbase1-heimdal libheimntlm0-heimdal libhx509-5-heimdal libk5crypto3 libkeyutils1
-  libkrb5-26-heimdal libkrb5-3 libkrb5support0 libldap-2.4-2 libldap-common libnghttp2-14 libpsl5
-  libroken18-heimdal librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libsqlite3-0 libssh-4 libssl1.1
-  libwind0-heimdal openssl publicsuffix
-0 upgraded, 32 newly installed, 0 to remove and 6 not upgraded.
-Need to get 5447 kB of archives.
-After this operation, 16.7 MB of additional disk space will be used.
-0% [Working]0% [Waiting for headers]                        Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.12 [1322 kB]
-0% [1 libssl1.1 3615 B/1322 kB 0%]1% [1 libssl1.1 72.5 kB/1322 kB 5%]3% [1 libssl1.1 218 kB/1322 kB 17%]5% [1 libssl1.1 319 kB/1322 kB 24%]7% [1 libssl1.1 445 kB/1322 kB 34%]9% [1 libssl1.1 582 kB/1322 kB 44%]11% [1 libssl1.1 764 kB/1322 kB 58%]13% [1 libssl1.1 868 kB/1322 kB 66%]15% [1 libssl1.1 992 kB/1322 kB 75%]17% [1 libssl1.1 1152 kB/1322 kB 87%]                                     20% [Working]             Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.12 [620 kB]
-20% [2 openssl 2317 B/620 kB 0%]22% [2 openssl 122 kB/620 kB 20%]                                                                    230 kB/s 17s24% [2 openssl 256 kB/620 kB 41%]                                                                    230 kB/s 16s26% [2 openssl 400 kB/620 kB 64%]                                                                    230 kB/s 16s28% [2 openssl 517 kB/620 kB 83%]                                                                    230 kB/s 15s30% [Waiting for headers]                                                                            230 kB/s 15s                                                                                                                 Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 ca-certificates all 20210119~20.04.2 [145 kB]
-30% [3 ca-certificates 718 B/145 kB 0%]                                                              230 kB/s 15s32% [3 ca-certificates 128 kB/145 kB 88%]                                                            230 kB/s 14s33% [Waiting for headers]                                                                            230 kB/s 14s                                                                                                                 Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsqlite3-0 amd64 3.31.1-4ubuntu0.2 [549 kB]
-33% [4 libsqlite3-0 2027 B/549 kB 0%]                                                                230 kB/s 14s34% [4 libsqlite3-0 126 kB/549 kB 23%]                                                               230 kB/s 14s37% [4 libsqlite3-0 297 kB/549 kB 54%]                                                               230 kB/s 13s39% [4 libsqlite3-0 409 kB/549 kB 75%]                                                               230 kB/s 12s39% [4 libsqlite3-0 410 kB/549 kB 75%]                                                               230 kB/s 12s41% [Waiting for headers]                                                                            230 kB/s 12s                                                                                                                 Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 krb5-locales all 1.17-6ubuntu4.1 [11.4 kB]
-41% [5 krb5-locales 1642 B/11.4 kB 14%]                                                              230 kB/s 12s42% [Waiting for headers]                                                                            230 kB/s 12s                                                                                                                 Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libkrb5support0 amd64 1.17-6ubuntu4.1 [30.9 kB]
-42% [6 libkrb5support0 1521 B/30.9 kB 5%]                                                            230 kB/s 12s43% [Working]                                                                                        230 kB/s 12s                                                                                                                 Get:7 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libk5crypto3 amd64 1.17-6ubuntu4.1 [79.9 kB]
-43% [7 libk5crypto3 4096 B/79.9 kB 5%]                                                               230 kB/s 12s45% [Waiting for headers]                                                                            230 kB/s 11s                                                                                                                 Get:8 http://archive.ubuntu.com/ubuntu focal/main amd64 libkeyutils1 amd64 1.6-6ubuntu1 [10.2 kB]
-45% [8 libkeyutils1 1878 B/10.2 kB 18%]                                                              230 kB/s 11s46% [Waiting for headers]                                                                            230 kB/s 11s                                                                                                                 Get:9 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libkrb5-3 amd64 1.17-6ubuntu4.1 [330 kB]
-46% [9 libkrb5-3 4379 B/330 kB 1%]                                                                   230 kB/s 11s48% [9 libkrb5-3 148 kB/330 kB 45%]                                                                  230 kB/s 10s48% [9 libkrb5-3 155 kB/330 kB 47%]                                                                  233 kB/s 10s48% [9 libkrb5-3 155 kB/330 kB 47%]                                                                  233 kB/s 10s48% [9 libkrb5-3 176 kB/330 kB 53%]                                                                  233 kB/s 10s49% [9 libkrb5-3 230 kB/330 kB 70%]                                                                  233 kB/s 10s51% [Waiting for headers]                                                                            233 kB/s 10s                                                                                                                 Get:10 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libgssapi-krb5-2 amd64 1.17-6ubuntu4.1 [121 kB]
-51% [10 libgssapi-krb5-2 5676 B/121 kB 5%]                                                           233 kB/s 10s52% [10 libgssapi-krb5-2 91.5 kB/121 kB 75%]                                                          233 kB/s 9s52% [10 libgssapi-krb5-2 91.5 kB/121 kB 75%]                                                          233 kB/s 9s54% [Waiting for headers]                                                                             233 kB/s 9s                                                                                                                 Get:11 http://archive.ubuntu.com/ubuntu focal/main amd64 libpsl5 amd64 0.21.0-1ubuntu1 [51.5 kB]
-54% [11 libpsl5 3954 B/51.5 kB 8%]                                                                    233 kB/s 9s55% [Waiting for headers]                                                                             233 kB/s 9s                                                                                                                 Get:12 http://archive.ubuntu.com/ubuntu focal/main amd64 publicsuffix all 20200303.0012-1 [111 kB]
-55% [12 publicsuffix 1268 B/111 kB 1%]                                                                233 kB/s 9s57% [Waiting for headers]                                                                             233 kB/s 8s                                                                                                                 Get:13 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libbrotli1 amd64 1.0.7-6ubuntu0.1 [267 kB]
-57% [13 libbrotli1 449 B/267 kB 0%]                                                                   233 kB/s 8s58% [13 libbrotli1 71.9 kB/267 kB 27%]                                                                233 kB/s 8s59% [13 libbrotli1 135 kB/267 kB 51%]                                                                 233 kB/s 8s62% [Waiting for headers]                                                                             233 kB/s 7s                                                                                                                 Get:14 http://archive.ubuntu.com/ubuntu focal/main amd64 libroken18-heimdal amd64 7.7.0+dfsg-1ubuntu1 [41.8 kB]
-62% [14 libroken18-heimdal 1064 B/41.8 kB 3%]                                                         233 kB/s 7s63% [Waiting for headers]                                                                             233 kB/s 7s                                                                                                                 Get:15 http://archive.ubuntu.com/ubuntu focal/main amd64 libasn1-8-heimdal amd64 7.7.0+dfsg-1ubuntu1 [181 kB]
-63% [15 libasn1-8-heimdal 3133 B/181 kB 2%]                                                           233 kB/s 7s63% [15 libasn1-8-heimdal 17.4 kB/181 kB 10%]                                                         233 kB/s 7s65% [15 libasn1-8-heimdal 145 kB/181 kB 80%]                                                         146 kB/s 11s66% [Waiting for headers]                                                                            146 kB/s 10s                                                                                                                 Get:16 http://archive.ubuntu.com/ubuntu focal/main amd64 libheimbase1-heimdal amd64 7.7.0+dfsg-1ubuntu1 [29.7 kB]
-66% [16 libheimbase1-heimdal 6408 B/29.7 kB 22%]                                                     146 kB/s 10s67% [Waiting for headers]                                                                            146 kB/s 10s                                                                                                                 Get:17 http://archive.ubuntu.com/ubuntu focal/main amd64 libhcrypto4-heimdal amd64 7.7.0+dfsg-1ubuntu1 [87.9 kB]
-67% [17 libhcrypto4-heimdal 5010 B/87.9 kB 6%]                                                       146 kB/s 10s68% [17 libhcrypto4-heimdal 30.4 kB/87.9 kB 35%]                                                     146 kB/s 10s69% [Waiting for headers]                                                                             146 kB/s 9s                                                                                                                 Get:18 http://archive.ubuntu.com/ubuntu focal/main amd64 libwind0-heimdal amd64 7.7.0+dfsg-1ubuntu1 [48.0 kB]
-69% [18 libwind0-heimdal 6661 B/48.0 kB 14%]                                                          146 kB/s 9s71% [Waiting for headers]                                                                             146 kB/s 9s                                                                                                                 Get:19 http://archive.ubuntu.com/ubuntu focal/main amd64 libhx509-5-heimdal amd64 7.7.0+dfsg-1ubuntu1 [107 kB]
-71% [19 libhx509-5-heimdal 1134 B/107 kB 1%]                                                          146 kB/s 9s73% [Waiting for headers]                                                                             146 kB/s 8s                                                                                                                 Get:20 http://archive.ubuntu.com/ubuntu focal/main amd64 libkrb5-26-heimdal amd64 7.7.0+dfsg-1ubuntu1 [208 kB]
-73% [20 libkrb5-26-heimdal 819 B/208 kB 0%]                                                           146 kB/s 8s75% [20 libkrb5-26-heimdal 172 kB/208 kB 83%]                                                         146 kB/s 7s76% [Working]                                                                                         146 kB/s 7s                                                                                                                 Get:21 http://archive.ubuntu.com/ubuntu focal/main amd64 libheimntlm0-heimdal amd64 7.7.0+dfsg-1ubuntu1 [15.1 kB]
-76% [21 libheimntlm0-heimdal 890 B/15.1 kB 6%]                                                        146 kB/s 7s77% [Waiting for headers]                                                                             146 kB/s 7s                                                                                                                 Get:22 http://archive.ubuntu.com/ubuntu focal/main amd64 libgssapi3-heimdal amd64 7.7.0+dfsg-1ubuntu1 [96.1 kB]
-77% [22 libgssapi3-heimdal 1120 B/96.1 kB 1%]                                                         146 kB/s 7s79% [Waiting for headers]                                                                             146 kB/s 6s                                                                                                                 Get:23 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsasl2-modules-db amd64 2.1.27+dfsg-2ubuntu0.1 [14.7 kB]
-79% [23 libsasl2-modules-db 307 B/14.7 kB 2%]                                                         146 kB/s 6s80% [Working]                                                                                         146 kB/s 6s                                                                                                                 Get:24 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsasl2-2 amd64 2.1.27+dfsg-2ubuntu0.1 [49.3 kB]
-80% [24 libsasl2-2 1526 B/49.3 kB 3%]                                                                 146 kB/s 6s81% [24 libsasl2-2 38.6 kB/49.3 kB 78%]                                                               146 kB/s 6s81% [Working]                                                                                         146 kB/s 6s                                                                                                                 Get:25 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libldap-common all 2.4.49+dfsg-2ubuntu1.8 [16.6 kB]
-82% [25 libldap-common 10.7 kB/16.6 kB 65%]                                                           146 kB/s 6s                                                                                                                 Get:26 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libldap-2.4-2 amd64 2.4.49+dfsg-2ubuntu1.8 [155 kB]
-82% [26 libldap-2.4-2 1174 B/155 kB 1%]                                                               146 kB/s 6s85% [26 libldap-2.4-2 151 kB/155 kB 97%]                                                              146 kB/s 5s85% [26 libldap-2.4-2 151 kB/155 kB 97%]                                                              146 kB/s 5s85% [Waiting for headers]                                                                             146 kB/s 5s                                                                                                                 Get:27 http://archive.ubuntu.com/ubuntu focal/main amd64 libnghttp2-14 amd64 1.40.0-1build1 [78.7 kB]
-85% [27 libnghttp2-14 13.4 kB/78.7 kB 17%]                                                            146 kB/s 5s87% [Waiting for headers]                                                                             146 kB/s 4s                                                                                                                 Get:28 http://archive.ubuntu.com/ubuntu focal/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build1 [54.9 kB]
-87% [28 librtmp1 2075 B/54.9 kB 4%]                                                                   146 kB/s 4s88% [Working]                                                                                         146 kB/s 4s                                                                                                                 Get:29 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssh-4 amd64 0.9.3-2ubuntu2.2 [170 kB]
-89% [29 libssh-4 3472 B/170 kB 2%]                                                                    146 kB/s 4s91% [29 libssh-4 162 kB/170 kB 95%]                                                                   146 kB/s 3s91% [29 libssh-4 162 kB/170 kB 95%]                                                                   146 kB/s 3s92% [Waiting for headers]                                                                             194 kB/s 2s                                                                                                                 Get:30 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libcurl4 amd64 7.68.0-1ubuntu2.7 [234 kB]
-92% [30 libcurl4 7333 B/234 kB 3%]                                                                    194 kB/s 2s93% [30 libcurl4 76.2 kB/234 kB 33%]                                                                  194 kB/s 1s95% [30 libcurl4 214 kB/234 kB 91%]                                                                   194 kB/s 1s96% [Waiting for headers]                                                                             194 kB/s 1s                                                                                                                 Get:31 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 curl amd64 7.68.0-1ubuntu2.7 [161 kB]
-96% [31 curl 226 B/161 kB 0%]                                                                         194 kB/s 1s98% [31 curl 133 kB/161 kB 82%]                                                                       194 kB/s 0s99% [Working]                                                                                         194 kB/s 0s                                                                                                                 Get:32 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libsasl2-modules amd64 2.1.27+dfsg-2ubuntu0.1 [48.8 kB]
-99% [32 libsasl2-modules 0 B/48.8 kB 0%]                                                              194 kB/s 0s100% [Working]                                                                                        194 kB/s 0s                                                                                                                 Fetched 5447 kB in 27s (204 kB/s)
+  ca-certificates libc-ares2 libicu66 libnghttp2-14 libnode64 libssl1.1 libuv1 nodejs nodejs-doc openssl tzdata
+0 upgraded, 11 newly installed, 0 to remove and 0 not upgraded.
+Need to get 17.9 MB of archives.
+After this operation, 74.6 MB of additional disk space will be used.
+[33m
+0% [Working][0m[33m
+0% [Waiting for headers][0m
+                        
+Get:1 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libssl1.1 amd64 1.1.1f-1ubuntu2.12 [1322 kB]
+[33m
+0% [1 libssl1.1 3615 B/1322 kB 0%][0m[33m
+1% [1 libssl1.1 132 kB/1322 kB 10%][0m[33m
+2% [1 libssl1.1 366 kB/1322 kB 28%][0m[33m
+3% [1 libssl1.1 582 kB/1322 kB 44%][0m[33m
+4% [1 libssl1.1 787 kB/1322 kB 60%][0m[33m
+4% [1 libssl1.1 964 kB/1322 kB 73%][0m[33m
+5% [1 libssl1.1 1113 kB/1322 kB 84%][0m[33m
+5% [1 libssl1.1 1142 kB/1322 kB 86%][0m[33m
+                                    
+8% [Working][0m
+            
+Get:2 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 openssl amd64 1.1.1f-1ubuntu2.12 [620 kB]
+[33m
+8% [2 openssl 1017 B/620 kB 0%][0m[33m
+9% [2 openssl 242 kB/620 kB 39%][0m[33m
+10% [2 openssl 478 kB/620 kB 77%][0m[33m
+12% [Waiting for headers]                                                                            322 kB/s 49s[0m
+                                                                                                                 
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 ca-certificates all 20210119~20.04.2 [145 kB]
+[33m
+12% [3 ca-certificates 12.4 kB/145 kB 9%]                                                            322 kB/s 49s[0m[33m
+15% [Waiting for headers]                                                                            322 kB/s 49s[0m
+                                                                                                                 
+Get:4 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 tzdata all 2021e-0ubuntu0.20.04 [295 kB]
+[33m
+15% [4 tzdata 727 B/295 kB 0%]                                                                       322 kB/s 48s[0m[33m
+16% [4 tzdata 219 kB/295 kB 74%]                                                                     322 kB/s 48s[0m[33m
+18% [Waiting for headers]                                                                            322 kB/s 48s[0m
+                                                                                                                 
+Get:5 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libicu66 amd64 66.1-2ubuntu2.1 [8515 kB]
+[33m
+18% [5 libicu66 834 B/8515 kB 0%]                                                                    322 kB/s 48s[0m[33m
+19% [5 libicu66 251 kB/8515 kB 3%]                                                                   322 kB/s 47s[0m[33m
+20% [5 libicu66 486 kB/8515 kB 6%]                                                                   322 kB/s 46s[0m[33m
+21% [5 libicu66 725 kB/8515 kB 9%]                                                                   322 kB/s 45s[0m[33m
+22% [5 libicu66 936 kB/8515 kB 11%]                                                                  322 kB/s 45s[0m[33m
+23% [5 libicu66 1183 kB/8515 kB 14%]                                                                 322 kB/s 44s[0m[33m
+24% [5 libicu66 1424 kB/8515 kB 17%]                                                                 322 kB/s 43s[0m[33m
+25% [5 libicu66 1658 kB/8515 kB 19%]                                                                 322 kB/s 42s[0m[33m
+26% [5 libicu66 1881 kB/8515 kB 22%]                                                                 322 kB/s 42s[0m[33m
+27% [5 libicu66 2100 kB/8515 kB 25%]                                                                 322 kB/s 41s[0m[33m
+28% [5 libicu66 2242 kB/8515 kB 26%]                                                                 322 kB/s 41s[0m[33m
+29% [5 libicu66 2410 kB/8515 kB 28%]                                                                 440 kB/s 29s[0m[33m
+30% [5 libicu66 2631 kB/8515 kB 31%]                                                                 440 kB/s 29s[0m[33m
+31% [5 libicu66 2880 kB/8515 kB 34%]                                                                 440 kB/s 28s[0m[33m
+32% [5 libicu66 3104 kB/8515 kB 36%]                                                                 440 kB/s 28s[0m[33m
+33% [5 libicu66 3346 kB/8515 kB 39%]                                                                 440 kB/s 27s[0m[33m
+34% [5 libicu66 3577 kB/8515 kB 42%]                                                                 440 kB/s 27s[0m[33m
+35% [5 libicu66 3814 kB/8515 kB 45%]                                                                 440 kB/s 26s[0m[33m
+36% [5 libicu66 3927 kB/8515 kB 46%]                                                                 440 kB/s 26s[0m[33m
+36% [5 libicu66 3931 kB/8515 kB 46%]                                                                 440 kB/s 26s[0m[33m
+36% [5 libicu66 3937 kB/8515 kB 46%]                                                                 440 kB/s 26s[0m[33m
+36% [5 libicu66 4126 kB/8515 kB 48%]                                                                 440 kB/s 25s[0m[33m
+37% [5 libicu66 4365 kB/8515 kB 51%]                                                                 440 kB/s 25s[0m[33m
+38% [5 libicu66 4511 kB/8515 kB 53%]                                                                 350 kB/s 31s[0m[33m
+39% [5 libicu66 4685 kB/8515 kB 55%]                                                                 350 kB/s 30s[0m[33m
+40% [5 libicu66 4927 kB/8515 kB 58%]                                                                 350 kB/s 30s[0m[33m
+41% [5 libicu66 5153 kB/8515 kB 61%]                                                                 350 kB/s 29s[0m[33m
+42% [5 libicu66 5389 kB/8515 kB 63%]                                                                 350 kB/s 28s[0m[33m
+43% [5 libicu66 5629 kB/8515 kB 66%]                                                                 350 kB/s 28s[0m[33m
+44% [5 libicu66 5870 kB/8515 kB 69%]                                                                 350 kB/s 27s[0m[33m
+45% [5 libicu66 6115 kB/8515 kB 72%]                                                                 350 kB/s 26s[0m[33m
+46% [5 libicu66 6357 kB/8515 kB 75%]                                                                 350 kB/s 26s[0m[33m
+47% [5 libicu66 6588 kB/8515 kB 77%]                                                                 350 kB/s 25s[0m[33m
+49% [5 libicu66 6827 kB/8515 kB 80%]                                                                 350 kB/s 24s[0m[33m
+50% [5 libicu66 7064 kB/8515 kB 83%]                                                                 350 kB/s 24s[0m[33m
+51% [5 libicu66 7306 kB/8515 kB 86%]                                                                 465 kB/s 17s[0m[33m
+52% [5 libicu66 7542 kB/8515 kB 89%]                                                                 465 kB/s 17s[0m[33m
+53% [5 libicu66 7779 kB/8515 kB 91%]                                                                 465 kB/s 16s[0m[33m
+54% [5 libicu66 8021 kB/8515 kB 94%]                                                                 465 kB/s 16s[0m[33m
+55% [5 libicu66 8231 kB/8515 kB 97%]                                                                 465 kB/s 15s[0m[33m
+56% [5 libicu66 8450 kB/8515 kB 99%]                                                                 465 kB/s 15s[0m[33m
+58% [Waiting for headers]                                                                            465 kB/s 14s[0m
+                                                                                                                 
+Get:6 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libuv1 amd64 1.34.2-1ubuntu1.3 [80.8 kB]
+[33m
+58% [6 libuv1 1372 B/80.8 kB 2%]                                                                     465 kB/s 14s[0m[33m
+60% [Waiting for headers]                                                                            465 kB/s 14s[0m
+                                                                                                                 
+Get:7 http://archive.ubuntu.com/ubuntu focal/main amd64 libnghttp2-14 amd64 1.40.0-1build1 [78.7 kB]
+[33m
+60% [7 libnghttp2-14 938 B/78.7 kB 1%]                                                               465 kB/s 14s[0m[33m
+62% [Waiting for headers]                                                                            465 kB/s 14s[0m
+                                                                                                                 
+Get:8 http://archive.ubuntu.com/ubuntu focal-updates/main amd64 libc-ares2 amd64 1.15.0-1ubuntu0.1 [38.2 kB]
+[33m
+62% [8 libc-ares2 2569 B/38.2 kB 7%]                                                                 465 kB/s 14s[0m[33m
+64% [Working]                                                                                        465 kB/s 14s[0m
+                                                                                                                 
+Get:9 http://archive.ubuntu.com/ubuntu focal/universe amd64 libnode64 amd64 10.19.0~dfsg-3ubuntu1 [5765 kB]
+[33m
+64% [9 libnode64 468 B/5765 kB 0%]                                                                   465 kB/s 14s[0m[33m
+65% [9 libnode64 242 kB/5765 kB 4%]                                                                  465 kB/s 14s[0m[33m
+66% [9 libnode64 448 kB/5765 kB 8%]                                                                  465 kB/s 13s[0m[33m
+67% [9 libnode64 674 kB/5765 kB 12%]                                                                 465 kB/s 13s[0m[33m
+68% [9 libnode64 918 kB/5765 kB 16%]                                                                 465 kB/s 12s[0m[33m
+69% [9 libnode64 1152 kB/5765 kB 20%]                                                                465 kB/s 12s[0m[33m
+70% [9 libnode64 1397 kB/5765 kB 24%]                                                                464 kB/s 11s[0m[33m
+72% [9 libnode64 1638 kB/5765 kB 28%]                                                                464 kB/s 11s[0m[33m
+73% [9 libnode64 1878 kB/5765 kB 33%]                                                                464 kB/s 10s[0m[33m
+74% [9 libnode64 2112 kB/5765 kB 37%]                                                                464 kB/s 10s[0m[33m
+75% [9 libnode64 2361 kB/5765 kB 41%]                                                                 464 kB/s 9s[0m[33m
+76% [9 libnode64 2585 kB/5765 kB 45%]                                                                 464 kB/s 9s[0m[33m
+77% [9 libnode64 2795 kB/5765 kB 48%]                                                                 464 kB/s 8s[0m[33m
+78% [9 libnode64 3009 kB/5765 kB 52%]                                                                 464 kB/s 8s[0m[33m
+78% [9 libnode64 3114 kB/5765 kB 54%]                                                                 464 kB/s 7s[0m[33m
+78% [9 libnode64 3185 kB/5765 kB 55%]                                                                 464 kB/s 7s[0m[33m
+78% [9 libnode64 3185 kB/5765 kB 55%]                                                                 464 kB/s 7s[0m[33m
+79% [9 libnode64 3192 kB/5765 kB 55%]                                                                 464 kB/s 7s[0m[33m
+79% [9 libnode64 3391 kB/5765 kB 59%]                                                                332 kB/s 10s[0m[33m
+80% [9 libnode64 3627 kB/5765 kB 63%]                                                                 332 kB/s 9s[0m[33m
+81% [9 libnode64 3744 kB/5765 kB 65%]                                                                 332 kB/s 9s[0m[33m
+82% [9 libnode64 3945 kB/5765 kB 68%]                                                                 332 kB/s 8s[0m[33m
+83% [9 libnode64 4181 kB/5765 kB 73%]                                                                 332 kB/s 7s[0m[33m
+84% [9 libnode64 4415 kB/5765 kB 77%]                                                                 332 kB/s 7s[0m[33m
+85% [9 libnode64 4660 kB/5765 kB 81%]                                                                 332 kB/s 6s[0m[33m
+86% [9 libnode64 4888 kB/5765 kB 85%]                                                                 332 kB/s 5s[0m[33m
+87% [9 libnode64 5117 kB/5765 kB 89%]                                                                 332 kB/s 4s[0m[33m
+88% [9 libnode64 5351 kB/5765 kB 93%]                                                                 332 kB/s 4s[0m[33m
+89% [9 libnode64 5585 kB/5765 kB 97%]                                                                 332 kB/s 3s[0m[33m
+92% [Waiting for headers]                                                                             332 kB/s 3s[0m
+                                                                                                                 
+Get:10 http://archive.ubuntu.com/ubuntu focal/universe amd64 nodejs-doc all 10.19.0~dfsg-3ubuntu1 [942 kB]
+[33m
+92% [10 nodejs-doc 1585 B/942 kB 0%]                                                                  332 kB/s 3s[0m[33m
+93% [10 nodejs-doc 238 kB/942 kB 25%]                                                                 332 kB/s 2s[0m[33m
+94% [10 nodejs-doc 477 kB/942 kB 51%]                                                                 446 kB/s 1s[0m[33m
+95% [10 nodejs-doc 719 kB/942 kB 76%]                                                                 446 kB/s 0s[0m[33m
+98% [Waiting for headers]                                                                             446 kB/s 0s[0m
+                                                                                                                 
+Get:11 http://archive.ubuntu.com/ubuntu focal/universe amd64 nodejs amd64 10.19.0~dfsg-3ubuntu1 [61.1 kB]
+[33m
+98% [11 nodejs 304 B/61.1 kB 0%]                                                                      446 kB/s 0s[0m[33m
+100% [Working]                                                                                        446 kB/s 0s[0m
+                                                                                                                 
+Fetched 17.9 MB in 44s (405 kB/s)
 debconf: delaying package configuration, since apt-utils is not installed
-Selecting previously unselected package libssl1.1:amd64.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4194 files and directories currently installed.)
+
+7[0;10r8[1ASelecting previously unselected package libssl1.1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 4194 files and directories currently installed.)
 Preparing to unpack .../00-libssl1.1_1.1.1f-1ubuntu2.12_amd64.deb ...
-Unpacking libssl1.1:amd64 (1.1.1f-1ubuntu2.12) ...
-Selecting previously unselected package openssl.
+7[11;0f[42m[30mProgress: [  0%][49m[39m [............................................................................................] 87[11;0f[42m[30mProgress: [  2%][49m[39m [##..........................................................................................] 8Unpacking libssl1.1:amd64 (1.1.1f-1ubuntu2.12) ...
+7[11;0f[42m[30mProgress: [  4%][49m[39m [####........................................................................................] 8Selecting previously unselected package openssl.
 Preparing to unpack .../01-openssl_1.1.1f-1ubuntu2.12_amd64.deb ...
-Unpacking openssl (1.1.1f-1ubuntu2.12) ...
-Selecting previously unselected package ca-certificates.
+7[11;0f[42m[30mProgress: [  7%][49m[39m [######......................................................................................] 8Unpacking openssl (1.1.1f-1ubuntu2.12) ...
+7[11;0f[42m[30mProgress: [  9%][49m[39m [########....................................................................................] 8Selecting previously unselected package ca-certificates.
 Preparing to unpack .../02-ca-certificates_20210119~20.04.2_all.deb ...
-Unpacking ca-certificates (20210119~20.04.2) ...
-Selecting previously unselected package libsqlite3-0:amd64.
-Preparing to unpack .../03-libsqlite3-0_3.31.1-4ubuntu0.2_amd64.deb ...
-Unpacking libsqlite3-0:amd64 (3.31.1-4ubuntu0.2) ...
-Selecting previously unselected package krb5-locales.
-Preparing to unpack .../04-krb5-locales_1.17-6ubuntu4.1_all.deb ...
-Unpacking krb5-locales (1.17-6ubuntu4.1) ...
-Selecting previously unselected package libkrb5support0:amd64.
-Preparing to unpack .../05-libkrb5support0_1.17-6ubuntu4.1_amd64.deb ...
-Unpacking libkrb5support0:amd64 (1.17-6ubuntu4.1) ...
-Selecting previously unselected package libk5crypto3:amd64.
-Preparing to unpack .../06-libk5crypto3_1.17-6ubuntu4.1_amd64.deb ...
-Unpacking libk5crypto3:amd64 (1.17-6ubuntu4.1) ...
-Selecting previously unselected package libkeyutils1:amd64.
-Preparing to unpack .../07-libkeyutils1_1.6-6ubuntu1_amd64.deb ...
-Unpacking libkeyutils1:amd64 (1.6-6ubuntu1) ...
-Selecting previously unselected package libkrb5-3:amd64.
-Preparing to unpack .../08-libkrb5-3_1.17-6ubuntu4.1_amd64.deb ...
-Unpacking libkrb5-3:amd64 (1.17-6ubuntu4.1) ...
-Selecting previously unselected package libgssapi-krb5-2:amd64.
-Preparing to unpack .../09-libgssapi-krb5-2_1.17-6ubuntu4.1_amd64.deb ...
-Unpacking libgssapi-krb5-2:amd64 (1.17-6ubuntu4.1) ...
-Selecting previously unselected package libpsl5:amd64.
-Preparing to unpack .../10-libpsl5_0.21.0-1ubuntu1_amd64.deb ...
-Unpacking libpsl5:amd64 (0.21.0-1ubuntu1) ...
-Selecting previously unselected package publicsuffix.
-Preparing to unpack .../11-publicsuffix_20200303.0012-1_all.deb ...
-Unpacking publicsuffix (20200303.0012-1) ...
-Selecting previously unselected package libbrotli1:amd64.
-Preparing to unpack .../12-libbrotli1_1.0.7-6ubuntu0.1_amd64.deb ...
-Unpacking libbrotli1:amd64 (1.0.7-6ubuntu0.1) ...
-Selecting previously unselected package libroken18-heimdal:amd64.
-Preparing to unpack .../13-libroken18-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libasn1-8-heimdal:amd64.
-Preparing to unpack .../14-libasn1-8-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libheimbase1-heimdal:amd64.
-Preparing to unpack .../15-libheimbase1-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libhcrypto4-heimdal:amd64.
-Preparing to unpack .../16-libhcrypto4-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libwind0-heimdal:amd64.
-Preparing to unpack .../17-libwind0-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libhx509-5-heimdal:amd64.
-Preparing to unpack .../18-libhx509-5-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libkrb5-26-heimdal:amd64.
-Preparing to unpack .../19-libkrb5-26-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libheimntlm0-heimdal:amd64.
-Preparing to unpack .../20-libheimntlm0-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libgssapi3-heimdal:amd64.
-Preparing to unpack .../21-libgssapi3-heimdal_7.7.0+dfsg-1ubuntu1_amd64.deb ...
-Unpacking libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Selecting previously unselected package libsasl2-modules-db:amd64.
-Preparing to unpack .../22-libsasl2-modules-db_2.1.27+dfsg-2ubuntu0.1_amd64.deb ...
-Unpacking libsasl2-modules-db:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
-Selecting previously unselected package libsasl2-2:amd64.
-Preparing to unpack .../23-libsasl2-2_2.1.27+dfsg-2ubuntu0.1_amd64.deb ...
-Unpacking libsasl2-2:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
-Selecting previously unselected package libldap-common.
-Preparing to unpack .../24-libldap-common_2.4.49+dfsg-2ubuntu1.8_all.deb ...
-Unpacking libldap-common (2.4.49+dfsg-2ubuntu1.8) ...
-Selecting previously unselected package libldap-2.4-2:amd64.
-Preparing to unpack .../25-libldap-2.4-2_2.4.49+dfsg-2ubuntu1.8_amd64.deb ...
-Unpacking libldap-2.4-2:amd64 (2.4.49+dfsg-2ubuntu1.8) ...
-Selecting previously unselected package libnghttp2-14:amd64.
-Preparing to unpack .../26-libnghttp2-14_1.40.0-1build1_amd64.deb ...
-Unpacking libnghttp2-14:amd64 (1.40.0-1build1) ...
-Selecting previously unselected package librtmp1:amd64.
-Preparing to unpack .../27-librtmp1_2.4+20151223.gitfa8646d.1-2build1_amd64.deb ...
-Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build1) ...
-Selecting previously unselected package libssh-4:amd64.
-Preparing to unpack .../28-libssh-4_0.9.3-2ubuntu2.2_amd64.deb ...
-Unpacking libssh-4:amd64 (0.9.3-2ubuntu2.2) ...
-Selecting previously unselected package libcurl4:amd64.
-Preparing to unpack .../29-libcurl4_7.68.0-1ubuntu2.7_amd64.deb ...
-Unpacking libcurl4:amd64 (7.68.0-1ubuntu2.7) ...
-Selecting previously unselected package curl.
-Preparing to unpack .../30-curl_7.68.0-1ubuntu2.7_amd64.deb ...
-Unpacking curl (7.68.0-1ubuntu2.7) ...
-Selecting previously unselected package libsasl2-modules:amd64.
-Preparing to unpack .../31-libsasl2-modules_2.1.27+dfsg-2ubuntu0.1_amd64.deb ...
-Unpacking libsasl2-modules:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
-Setting up libkeyutils1:amd64 (1.6-6ubuntu1) ...
-Setting up libpsl5:amd64 (0.21.0-1ubuntu1) ...
-Setting up libssl1.1:amd64 (1.1.1f-1ubuntu2.12) ...
-debconf: unable to initialize frontend: Dialog
+7[11;0f[42m[30mProgress: [ 11%][49m[39m [##########..................................................................................] 8Unpacking ca-certificates (20210119~20.04.2) ...
+7[11;0f[42m[30mProgress: [ 13%][49m[39m [############................................................................................] 8Selecting previously unselected package tzdata.
+Preparing to unpack .../03-tzdata_2021e-0ubuntu0.20.04_all.deb ...
+7[11;0f[42m[30mProgress: [ 16%][49m[39m [##############..............................................................................] 8Unpacking tzdata (2021e-0ubuntu0.20.04) ...
+7[11;0f[42m[30mProgress: [ 18%][49m[39m [################............................................................................] 8Selecting previously unselected package libicu66:amd64.
+Preparing to unpack .../04-libicu66_66.1-2ubuntu2.1_amd64.deb ...
+7[11;0f[42m[30mProgress: [ 20%][49m[39m [##################..........................................................................] 8Unpacking libicu66:amd64 (66.1-2ubuntu2.1) ...
+7[11;0f[42m[30mProgress: [ 22%][49m[39m [####################........................................................................] 8Selecting previously unselected package libuv1:amd64.
+Preparing to unpack .../05-libuv1_1.34.2-1ubuntu1.3_amd64.deb ...
+7[11;0f[42m[30mProgress: [ 24%][49m[39m [######################......................................................................] 8Unpacking libuv1:amd64 (1.34.2-1ubuntu1.3) ...
+7[11;0f[42m[30mProgress: [ 27%][49m[39m [########################....................................................................] 8Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../06-libnghttp2-14_1.40.0-1build1_amd64.deb ...
+7[11;0f[42m[30mProgress: [ 29%][49m[39m [##########################..................................................................] 8Unpacking libnghttp2-14:amd64 (1.40.0-1build1) ...
+7[11;0f[42m[30mProgress: [ 31%][49m[39m [############################................................................................] 8Selecting previously unselected package libc-ares2:amd64.
+Preparing to unpack .../07-libc-ares2_1.15.0-1ubuntu0.1_amd64.deb ...
+7[11;0f[42m[30mProgress: [ 33%][49m[39m [##############################..............................................................] 8Unpacking libc-ares2:amd64 (1.15.0-1ubuntu0.1) ...
+7[11;0f[42m[30mProgress: [ 36%][49m[39m [################################............................................................] 8Selecting previously unselected package libnode64:amd64.
+Preparing to unpack .../08-libnode64_10.19.0~dfsg-3ubuntu1_amd64.deb ...
+7[11;0f[42m[30mProgress: [ 38%][49m[39m [##################################..........................................................] 8Unpacking libnode64:amd64 (10.19.0~dfsg-3ubuntu1) ...
+7[11;0f[42m[30mProgress: [ 40%][49m[39m [####################################........................................................] 8Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../09-nodejs-doc_10.19.0~dfsg-3ubuntu1_all.deb ...
+7[11;0f[42m[30mProgress: [ 42%][49m[39m [######################################......................................................] 8Unpacking nodejs-doc (10.19.0~dfsg-3ubuntu1) ...
+7[11;0f[42m[30mProgress: [ 44%][49m[39m [########################################....................................................] 8Selecting previously unselected package nodejs.
+Preparing to unpack .../10-nodejs_10.19.0~dfsg-3ubuntu1_amd64.deb ...
+7[11;0f[42m[30mProgress: [ 47%][49m[39m [##########################################..................................................] 8Unpacking nodejs (10.19.0~dfsg-3ubuntu1) ...
+7[11;0f[42m[30mProgress: [ 49%][49m[39m [############################################................................................] 8Setting up libssl1.1:amd64 (1.1.1f-1ubuntu2.12) ...
+7[11;0f[42m[30mProgress: [ 51%][49m[39m [###############################################.............................................] 8debconf: unable to initialize frontend: Dialog
 debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
 debconf: falling back to frontend: Readline
 debconf: unable to initialize frontend: Readline
 debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
 debconf: falling back to frontend: Teletype
-Setting up libbrotli1:amd64 (1.0.7-6ubuntu0.1) ...
-Setting up libsqlite3-0:amd64 (3.31.1-4ubuntu0.2) ...
-Setting up libsasl2-modules:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
-Setting up libnghttp2-14:amd64 (1.40.0-1build1) ...
-Setting up krb5-locales (1.17-6ubuntu4.1) ...
-Setting up libldap-common (2.4.49+dfsg-2ubuntu1.8) ...
-Setting up libkrb5support0:amd64 (1.17-6ubuntu4.1) ...
-Setting up libsasl2-modules-db:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
-Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build1) ...
-Setting up libk5crypto3:amd64 (1.17-6ubuntu4.1) ...
-Setting up libsasl2-2:amd64 (2.1.27+dfsg-2ubuntu0.1) ...
-Setting up libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up libkrb5-3:amd64 (1.17-6ubuntu4.1) ...
-Setting up openssl (1.1.1f-1ubuntu2.12) ...
-Setting up publicsuffix (20200303.0012-1) ...
-Setting up libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up ca-certificates (20210119~20.04.2) ...
-debconf: unable to initialize frontend: Dialog
+7[11;0f[42m[30mProgress: [ 53%][49m[39m [#################################################...........................................] 8Setting up libnghttp2-14:amd64 (1.40.0-1build1) ...
+7[11;0f[42m[30mProgress: [ 56%][49m[39m [###################################################.........................................] 87[11;0f[42m[30mProgress: [ 58%][49m[39m [#####################################################.......................................] 8Setting up libc-ares2:amd64 (1.15.0-1ubuntu0.1) ...
+7[11;0f[42m[30mProgress: [ 60%][49m[39m [#######################################################.....................................] 87[11;0f[42m[30mProgress: [ 62%][49m[39m [#########################################################...................................] 8Setting up tzdata (2021e-0ubuntu0.20.04) ...
+7[11;0f[42m[30mProgress: [ 64%][49m[39m [###########################################################.................................] 8debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Configuring tzdata
+------------------
+
+Please select the geographic area in which you live. Subsequent configuration questions will narrow this down by
+presenting a list of cities, representing the time zones in which they are located.
+
+  1. Africa   3. Antarctica  5. Arctic  7. Atlantic  9. Indian    11. SystemV  13. Etc
+  2. America  4. Australia   6. Asia    8. Europe    10. Pacific  12. US
+Geographic area: 1
+
+Please select the city or region corresponding to your time zone.
+
+  1. Abidjan      10. Blantyre       19. Djibouti      28. Khartoum    37. Malabo     46. Nouakchott
+  2. Accra        11. Brazzaville    20. Douala        29. Kigali      38. Maputo     47. Ouagadougou
+  3. Addis_Ababa  12. Bujumbura      21. El_Aaiun      30. Kinshasa    39. Maseru     48. Porto-Novo
+  4. Algiers      13. Cairo          22. Freetown      31. Lagos       40. Mbabane    49. Sao_Tome
+  5. Asmara       14. Casablanca     23. Gaborone      32. Libreville  41. Mogadishu  50. Timbuktu
+[More]  31
+
+  6. Bamako       15. Ceuta          24. Harare        33. Lome        42. Monrovia   51. Tripoli
+  7. Bangui       16. Conakry        25. Johannesburg  34. Luanda      43. Nairobi    52. Tunis
+  8. Banjul       17. Dakar          26. Juba          35. Lubumbashi  44. Ndjamena   53. Windhoek
+  9. Bissau       18. Dar_es_Salaam  27. Kampala       36. Lusaka      45. Niamey
+Time zone: 31
+
+
+Current default time zone: 'Africa/Lagos'
+Local time is now:      Fri Mar 18 17:26:23 WAT 2022.
+Universal Time is now:  Fri Mar 18 16:26:23 UTC 2022.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+7[11;0f[42m[30mProgress: [ 67%][49m[39m [#############################################################...............................] 8Setting up libuv1:amd64 (1.34.2-1ubuntu1.3) ...
+7[11;0f[42m[30mProgress: [ 69%][49m[39m [###############################################################.............................] 87[11;0f[42m[30mProgress: [ 71%][49m[39m [#################################################################...........................] 8Setting up nodejs-doc (10.19.0~dfsg-3ubuntu1) ...
+7[11;0f[42m[30mProgress: [ 73%][49m[39m [###################################################################.........................] 87[11;0f[42m[30mProgress: [ 76%][49m[39m [#####################################################################.......................] 8Setting up openssl (1.1.1f-1ubuntu2.12) ...
+7[11;0f[42m[30mProgress: [ 78%][49m[39m [#######################################################################.....................] 87[11;0f[42m[30mProgress: [ 80%][49m[39m [#########################################################################...................] 8Setting up libicu66:amd64 (66.1-2ubuntu2.1) ...
+7[11;0f[42m[30mProgress: [ 82%][49m[39m [###########################################################################.................] 87[11;0f[42m[30mProgress: [ 84%][49m[39m [#############################################################################...............] 8Setting up ca-certificates (20210119~20.04.2) ...
+7[11;0f[42m[30mProgress: [ 87%][49m[39m [###############################################################################.............] 8debconf: unable to initialize frontend: Dialog
 debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
 debconf: falling back to frontend: Readline
 debconf: unable to initialize frontend: Readline
@@ -189,104 +361,27 @@ debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Ter
 debconf: falling back to frontend: Teletype
 Updating certificates in /etc/ssl/certs...
 128 added, 0 removed; done.
-Setting up libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up libgssapi-krb5-2:amd64 (1.17-6ubuntu4.1) ...
-Setting up libssh-4:amd64 (0.9.3-2ubuntu2.2) ...
-Setting up libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1) ...
-Setting up libldap-2.4-2:amd64 (2.4.49+dfsg-2ubuntu1.8) ...
-Setting up libcurl4:amd64 (7.68.0-1ubuntu2.7) ...
-Setting up curl (7.68.0-1ubuntu2.7) ...
-Processing triggers for libc-bin (2.31-0ubuntu9.7) ...
+7[11;0f[42m[30mProgress: [ 89%][49m[39m [#################################################################################...........] 8Setting up libnode64:amd64 (10.19.0~dfsg-3ubuntu1) ...
+7[11;0f[42m[30mProgress: [ 89%][49m[39m [##################################################################################..........] 8Setting up nodejs (10.19.0~dfsg-3ubuntu1) ...
+7[11;0f[42m[30mProgress: [ 91%][49m[39m [####################################################################################........] 8update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/js.1.gz because associated file /usr/share/man/man1/nodejs.1.gz (of link group js) doesn't exist
+7[11;0f[42m[30mProgress: [ 94%][49m[39m [######################################################################################......] 8Processing triggers for libc-bin (2.31-0ubuntu9.7) ...
 Processing triggers for ca-certificates (20210119~20.04.2) ...
-Updating certificates in /etc/ssl/certs...
+7[11;0f[42m[30mProgress: [ 96%][49m[39m [########################################################################################....] 8Updating certificates in /etc/ssl/certs...
 0 added, 0 removed; done.
 Running hooks in /etc/ca-certificates/update.d...
 done.
-]0;root@120e2e884d96: /root@120e2e884d96:/# curl -sL https://deb.nodesource.com/setup_16.x | bash
-stall -y nodejs
-## Installing the NodeSource Node.js 16.x repo...
-
-
-## Populating apt-get cache...
-
-+ apt-get update
-0% [Working]0% [Waiting for headers] [Waiting for headers]                                              Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
-                                              0% [Waiting for headers]                        Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
-0% [Waiting for headers] [2 InRelease 12.7 kB/114 kB 11%]                                                         Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
-0% [3 InRelease 2305 B/114 kB 2%] [2 InRelease 38.7 kB/114 kB 34%]0% [3 InRelease 14.0 kB/114 kB 12%] [2 InRelease 38.7 kB/114 kB 34%]                                                                    0% [3 InRelease 66.0 kB/114 kB 58%] [2 InRelease 111 kB/114 kB 98%]                                                                   0% [2 InRelease 111 kB/114 kB 98%]                                  Get:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
-0% [4 InRelease 1005 B/108 kB 1%] [2 InRelease 111 kB/114 kB 98%]0% [4 InRelease 32.2 kB/108 kB 30%] [2 InRelease 111 kB/114 kB 98%]                                                                   0% [4 InRelease 58.2 kB/108 kB 54%]0% [4 InRelease 59.5 kB/108 kB 55%]                                   0% [Working]100% [Working]              Fetched 336 kB in 3s (105 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 46%Reading package lists... 58%Reading package lists... 58%Reading package lists... 59%Reading package lists... 59%Reading package lists... 69%Reading package lists... 69%Reading package lists... 75%Reading package lists... 75%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 89%Reading package lists... 89%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-
-## Installing packages required for setup: lsb-release gnupg...
-
-+ apt-get install -y lsb-release gnupg > /dev/null 2>&1
-
-## Confirming "focal" is supported...
-
-+ curl -sLf -o /dev/null 'https://deb.nodesource.com/node_16.x/dists/focal/Release'
-
-## Adding the NodeSource signing key to your keyring...
-
-+ curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | gpg --dearmor | tee /usr/share/keyrings/nodesource.gpg >/dev/null
-
-## Creating apt sources list file for the NodeSource Node.js 16.x repo...
-
-+ echo 'deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_16.x focal main' > /etc/apt/sources.list.d/nodesource.list
-+ echo 'deb-src [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_16.x focal main' >> /etc/apt/sources.list.d/nodesource.list
-
-## Running `apt-get update` for you...
-
-+ apt-get update
-0% [Working]0% [Waiting for headers] [Waiting for headers] [Connected to deb.nodesource.com (104.110.240.193)]                                                                                                  Hit:1 http://archive.ubuntu.com/ubuntu focal InRelease
-                                                                                                  0% [Waiting for headers] [Connected to deb.nodesource.com (104.110.240.193)]                                                                            Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
-0% [Waiting for headers] [2 InRelease 2289 B/114 kB 2%] [Connected to deb.nodesource.com (104.110.240.193)]                                                                                                           Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
-                                                                                                           0% [3 InRelease 4905 B/114 kB 4%] [2 InRelease 12.7 kB/114 kB 11%] [Waiting for headers]                                                                                        Get:4 https://deb.nodesource.com/node_16.x focal InRelease [4583 B]
-0% [3 InRelease 20.7 kB/114 kB 18%] [2 InRelease 12.7 kB/114 kB 11%] [4 InRelease 4583 B/4583 B 100%]                                                                                                     0% [3 InRelease 21.8 kB/114 kB 19%] [2 InRelease 12.7 kB/114 kB 11%]0% [3 InRelease 34.8 kB/114 kB 31%] [2 InRelease 38.7 kB/114 kB 34%]0% [3 InRelease 85.5 kB/114 kB 75%] [2 InRelease 43.9 kB/114 kB 39%]                                                                    0% [2 InRelease 56.9 kB/114 kB 50%] [Waiting for headers]                                                         Get:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
-0% [5 InRelease 6205 B/108 kB 6%] [2 InRelease 101 kB/114 kB 89%] [Waiting for headers]                                                                                       0% [5 InRelease 62.1 kB/108 kB 57%] [Waiting for headers]0% [5 InRelease 90.1 kB/108 kB 83%] [Waiting for headers]                                                         Get:6 https://deb.nodesource.com/node_16.x focal/main amd64 Packages [770 B]
-0% [5 InRelease 90.1 kB/108 kB 83%] [6 Packages 770 B/770 B 100%]                                                                 0% [5 InRelease 90.1 kB/108 kB 83%]0% [6 Packages store 0 B] [5 InRelease 90.1 kB/108 kB 83%]                                                          0% [5 InRelease 90.1 kB/108 kB 83%]                                   0% [Working]0% [Working]100% [Working]              Fetched 341 kB in 3s (136 kB/s)
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 50%Reading package lists... 58%Reading package lists... 58%Reading package lists... 59%Reading package lists... 59%Reading package lists... 69%Reading package lists... 69%Reading package lists... 75%Reading package lists... 75%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 89%Reading package lists... 89%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-
-## Run `[1msudo apt-get install -y nodejs(B[m` to install Node.js 16.x and npm
-## You may also need development tools to build native addons:
-     sudo apt-get install gcc g++ make
-## To install the Yarn package manager, run:
-     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
-     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-     sudo apt-get update && sudo apt-get install yarn
-
-
-]0;root@120e2e884d96: /root@120e2e884d96:/# [Kapt install -y nodejs[K[K[K[Knode
-bash: node: command not found
-]0;root@120e2e884d96: /root@120e2e884d96:/# apt-get install -y nodejs
-Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 46%Reading package lists... 58%Reading package lists... 58%Reading package lists... 59%Reading package lists... 59%Reading package lists... 69%Reading package lists... 69%Reading package lists... 75%Reading package lists... 75%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 81%Reading package lists... 89%Reading package lists... 89%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
-Reading state information... 0%Reading state information... 1%Reading state information... Done
-The following NEW packages will be installed:
-  nodejs
-0 upgraded, 1 newly installed, 0 to remove and 6 not upgraded.
-Need to get 26.2 MB of archives.
-After this operation, 122 MB of additional disk space will be used.
-0% [Working]0% [Connected to deb.nodesource.com (104.110.240.193)]                                                      0% [Waiting for headers]                        Get:1 https://deb.nodesource.com/node_16.x focal/main amd64 nodejs amd64 16.14.2-deb-1nodesource1 [26.2 MB]
-0% [1 nodejs 16.2 kB/26.2 MB 0%]                                1% [1 nodejs 297 kB/26.2 MB 1%]2% [1 nodejs 667 kB/26.2 MB 3%]3% [1 nodejs 1074 kB/26.2 MB 4%]4% [1 nodejs 1237 kB/26.2 MB 5%]8% [1 nodejs 2764 kB/26.2 MB 11%]8% [1 nodejs 2764 kB/26.2 MB 11%]8% [1 nodejs 2764 kB/26.2 MB 11%]8% [1 nodejs 2764 kB/26.2 MB 11%]13% [1 nodejs 4112 kB/26.2 MB 16%]14% [1 nodejs 4475 kB/26.2 MB 17%]                                                                   722 kB/s 30s18% [1 nodejs 5761 kB/26.2 MB 22%]                                                                   722 kB/s 28s18% [1 nodejs 5761 kB/26.2 MB 22%]                                                                   722 kB/s 28s18% [1 nodejs 5761 kB/26.2 MB 22%]                                                                   722 kB/s 28s22% [1 nodejs 7183 kB/26.2 MB 27%]                                                                   722 kB/s 26s22% [1 nodejs 7350 kB/26.2 MB 28%]                                                                   722 kB/s 26s28% [1 nodejs 9137 kB/26.2 MB 35%]                                                                   722 kB/s 23s33% [1 nodejs 10.9 MB/26.2 MB 42%]                                                                   722 kB/s 21s40% [1 nodejs 13.2 MB/26.2 MB 50%]                                                                   722 kB/s 18s40% [1 nodejs 13.2 MB/26.2 MB 50%]                                                                   722 kB/s 18s44% [1 nodejs 14.5 MB/26.2 MB 55%]                                                                   722 kB/s 16s45% [1 nodejs 14.6 MB/26.2 MB 56%]                                                                   722 kB/s 16s46% [1 nodejs 15.2 MB/26.2 MB 58%]                                                                   1778 kB/s 6s51% [1 nodejs 16.6 MB/26.2 MB 63%]                                                                   1778 kB/s 5s60% [1 nodejs 19.5 MB/26.2 MB 74%]                                                                   1778 kB/s 3s64% [1 nodejs 21.1 MB/26.2 MB 81%]                                                                   1778 kB/s 2s66% [1 nodejs 21.5 MB/26.2 MB 82%]                                                                   1778 kB/s 2s70% [1 nodejs 22.8 MB/26.2 MB 87%]                                                                   1778 kB/s 1s70% [1 nodejs 22.8 MB/26.2 MB 87%]                                                                   1778 kB/s 1s70% [1 nodejs 22.8 MB/26.2 MB 87%]                                                                   1778 kB/s 1s77% [1 nodejs 25.3 MB/26.2 MB 96%]                                                                   1778 kB/s 0s100% [Working]                                                                                       1778 kB/s 0s                                                                                                                 Fetched 26.2 MB in 17s (1569 kB/s)
-debconf: delaying package configuration, since apt-utils is not installed
-Selecting previously unselected package nodejs.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 5778 files and directories currently installed.)
-Preparing to unpack .../nodejs_16.14.2-deb-1nodesource1_amd64.deb ...
-Unpacking nodejs (16.14.2-deb-1nodesource1) ...
-Setting up nodejs (16.14.2-deb-1nodesource1) ...
-]0;root@120e2e884d96: /root@120e2e884d96:/# node
-Welcome to Node.js v16.14.2.
-Type ".help" for more information.
-[1G[0J> [3G
-(To exit, press Ctrl+C again or Ctrl+D or type .exit)
-[1G[0J> [3G
-]0;root@120e2e884d96: /root@120e2e884d96:/# node usr/src/app/index.js 
+7[11;0f[42m[30mProgress: [ 98%][49m[39m [##########################################################################################..] 8
+7[0;11r8[1A[J]0;root@f5d0475a9aba: /root@f5d0475a9aba:/# node -v
+v10.19.0
+]0;root@f5d0475a9aba: /root@f5d0475a9aba:/# node usr/src/app/index.js
 Hello World
-]0;root@120e2e884d96: /root@120e2e884d96:/# [Kexit
+]0;root@f5d0475a9aba: /root@f5d0475a9aba:/# exit
 exit
-[1m[7m%[27m[1m[0m                                                                                                                  ]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications]1;..-applications[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[90mxit[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                 
+ 
+]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications]1;..-applications
+[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[90mxit[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
+
 ]2;exit]1;exit
-Script done on 2022-04-24 15:44:05+01:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2022-03-18 17:26:58+01:00 [COMMAND_EXIT_CODE="0"]
