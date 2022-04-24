@@ -1,0 +1,32 @@
+Script started on 2022-04-24 14:15:05+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="114" LINES="11"]
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications]1;..-applications[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[32md[39m[32md[39m[90mocker-compos[90me[90m -f docker-compose.dev.yml up -d[39m[K[A[69C[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32md[0m[32mo[0m[32mc[0m[32mk[0m[32me[32mr[39m[K[1B[K[A[108C[90mrun -p[90m [90m3001:3000 todo-backend[39m[K[A[85C[39mc[K[1B[K[A[109C[90montai[90mn[90mer run -it --name hello-node node:16 bash[39m[K[A[67C[39mo[39mn[39mt[39ma[39mi[90mn[39m[39mnn[39me[39mr[39m [39mr[39mu[39mn[39m [39mh[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [33Dello-word  rld[?1l>[?2004l
+]2;docker container run hello-world]1;docker
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications]1;..-applications[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[32md[39m[32md[39m[90mocker contai[90mn[90mer run hello-world[39m[K[A[83C[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32md[0m[32mo[0m[32mc[0m[32mk[0m[32me[32mr[39m[39m [39mc[39mo[39mn[39mt[39ma[39mi[90mn[39m[39mnn[39me[39mr[39m [39mr[39mu[39mn[39m [39m-[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90mit --name hello-node node:16 bash[39m[33D[39mi[39mt[39m [39mu[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [29D[90mbuntu bash[39m[10D[39mb[39mu[39mn[39mt[39mu[39m [39mb[39ma[39ms[39mh[?1l>[?2004l
+]2;docker container run -it ubuntu bash]1;docker]0;root@120e2e884d96: /root@120e2e884d96:/# mkdir use r/src/app
+]0;root@120e2e884d96: /root@120e2e884d96:/# touch m usr/src/app/index.js
+]0;root@120e2e884d96: /root@120e2e884d96:/# [Kexit
+exit
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications]1;..-applications[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[90mxitex[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[39m [39m [?1l>[?2004l
+]2;exit]1;exit
+Script done on 2022-04-24 14:19:17+01:00 [COMMAND_EXIT_CODE="0"]
