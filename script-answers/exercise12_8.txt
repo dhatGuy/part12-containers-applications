@@ -1,0 +1,83 @@
+Script started on 2022-04-25 15:02:24+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="114" LINES="11"]
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications/script-answers [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[32md[39m[32md[39m[90mocker-compose -f docker-compose.dev.yml up[39m[42D[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32md[0m[32mo[0m[32mc[0m[32mk[0m[32me[32mr[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [36D[90mexec -it  inspiring_boyd bash[39m[29D[39mc[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[90montainer ls[39m[11D[39mo[39mn[39mt[39ma[39mi[39mn[39me[39mr[39m [39ml[39ms[?1l>[?2004l
+]2;docker container ls]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED             STATUS              PORTS                     NAMES
+9f805fa31a29   nginx     "/docker-entrypoint.…"   14 minutes ago      Up 14 minutes       0.0.0.0:8080->80/tcp      inspiring_boyd
+b36cfe898075   mongo     "docker-entrypoint.s…"   About an hour ago   Up About a minute   0.0.0.0:3456->27017/tcp   todo-backend_mongo_1
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[39m[0m[49m[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications/script-answers [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[32md[39m[32md[39m[90mocker container ls[39m[18D[33md[33mo[39m[1m[31md[1m[31mo[1m[31mc[0m[39m[1m[31mc[1m[31mk[0m[39m[1m[31mk[1m[31me[0m[39m[0m[32md[0m[32mo[0m[32mc[0m[32mk[0m[32me[32mr[39m[39m [39m[4me[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mxec -it  inspiring_boyd bash[39m[28D[24me[39mx[39me[39mc[39m [39m-[39mi[39mt[39m [39m [39mi[39mn[39ms[39mp[39mi[39mr[39mi[39mn[39mg[39m_[39mb[39mo[39my[39md[39m [39mb[39ma[39ms[39mh [90mh[39m [39m [90msh[39m [39m [39m [90mash[39m [39m [39m [39m [90mbash[39m[39m [39m [39m [39m [90m bash[39m [39m [39m [39m [39m [39m [90md bash[39m [39m [39m [39m [39m [39m [39m [90myd bash[39m [39m [39m [39m [39m [39m [39m [39m [8D[90moyd bash[39m[8D [39m [39m [39m [39m [39m [39m [39m [39m [9D[90mboyd bash[39m[9D [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90m_boyd bash[39m[10D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mg_boyd bash[39m[11D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90mng_boyd bash[39m[12D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90ming_boyd bash[39m[13D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[90mring_boyd bash[39m[14D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[90miring_boyd bash[39m[15D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[90mpiring_boyd bash[39m[16D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[90mspiring_boyd bash[39m[17D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[90mnspiring_boyd bash[39m[18D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90minspiring_boyd bash[39m[19D[39mt[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18Dodo-backend_mongo_1 bash[?1l>[?2004l
+]2;docker exec -it todo-backend_mongo_1 bash]1;docker]0;root@b36cfe898075: /root@b36cfe898075:/# mongo
+MongoDB shell version v5.0.7
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("4bc3aaf7-7c88-457d-91a4-1c5d92cbd201") }
+MongoDB server version: 5.0.7
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+	https://docs.mongodb.com/
+Questions? Try the MongoDB Developer Community Forums
+	https://community.mongodb.com
+> [3G[J[3G^C
+bye
+]0;root@b36cfe898075: /root@b36cfe898075:/# mongo -u root -p example
+MongoDB shell version v5.0.7
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("3b886198-181b-408a-bf4c-c3d5b07f3b8d") }
+MongoDB server version: 5.0.7
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting: 
+        2022-04-25T14:02:22.127+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+        2022-04-25T14:02:22.839+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> shi[3G[Jsh[5Gow dbs[3G[Jshow dbs[11G
+admin         0.000GB
+config        0.000GB
+local         0.000GB
+the_database  0.000GB
+> use the_database[3G[Juse the_database[19G
+switched to db the_database
+> show collections[3G[Jshow collections[19G
+todos
+> db.todos.find({})[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("62667f551cbcab0a7ed28257"), "text" : "💔", "done" : false }
+{ "_id" : ObjectId("62667f551cbcab0a7ed28258"), "text" : "Learn about containers", "done" : false }
+> db.todos.insertOne()[3G[Jdb.todos.insertOne[1;34m([0m)[22G[3G[Jdb.todos.insertOne([1;34m{[0m)[23G[3G[Jdb.todos.insertOne[1;34m([0m{})[24G[3G[Jdb.todos.insertOne([1;34m{[0m})[23G[3G[Jdb.todos.insertOne([1;34m{[0mt})[24G[3G[Jdb.todos.insertOne([1;34m{[0mte})[25G[3G[Jdb.todos.insertOne([1;34m{[0mtex})[26G[3G[Jdb.todos.insertOne([1;34m{[0mtext})[27G[3G[Jdb.todos.insertOne([1;34m{[0mtext:})[28G[3G[Jdb.todos.insertOne([1;34m{[0mtext: })[29G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "})[30G[3G[Jdb.todos.insertOne([1;34m{[0mtext: ""})[31G[3G[Jdb.todos.insertOne({text: ""})[30G[3G[Jdb.todos.insertOne({text: "I"})[31G[3G[Jdb.todos.insertOne({text: "In"})[32G[3G[Jdb.todos.insertOne({text: "Inc"})[33G[3G[Jdb.todos.insertOne({text: "Incr"})[34G[3G[Jdb.todos.insertOne({text: "Incre"})[35G[3G[Jdb.todos.insertOne({text: "Increa"})[36G[3G[Jdb.todos.insertOne({text: "Increas"})[37G[3G[Jdb.todos.insertOne({text: "Increase"})[38G[3G[Jdb.todos.insertOne({text: "Increase "})[39G[3G[Jdb.todos.insertOne({text: "Increase t"})[40G[3G[Jdb.todos.insertOne({text: "Increase th"})[41G[3G[Jdb.todos.insertOne({text: "Increase the"})[42G[3G[Jdb.todos.insertOne({text: "Increase the "})[43G[3G[Jdb.todos.insertOne({text: "Increase the n"})[44G[3G[Jdb.todos.insertOne({text: "Increase the nu"})[45G[3G[Jdb.todos.insertOne({text: "Increase the num"})[46G[3G[Jdb.todos.insertOne({text: "Increase the numb"})[47G[3G[Jdb.todos.insertOne({text: "Increase the numbe"})[48G[3G[Jdb.todos.insertOne({text: "Increase the number"})[49G[3G[Jdb.todos.insertOne({text: "Increase the number "})[50G[3G[Jdb.todos.insertOne({text: "Increase the number o"})[51G[3G[Jdb.todos.insertOne({text: "Increase the number of"})[52G[3G[Jdb.todos.insertOne({text: "Increase the number of "})[53G[3G[Jdb.todos.insertOne({text: "Increase the number of b"})[54G[3G[Jdb.todos.insertOne({text: "Increase the number of be"})[55G[3G[Jdb.todos.insertOne({text: "Increase the number of bel"})[56G[3G[Jdb.todos.insertOne({text: "Increase the number of belt"})[57G[3G[Jdb.todos.insertOne({text: "Increase the number of bel"})[56G[3G[Jdb.todos.insertOne({text: "Increase the number of be"})[55G[3G[Jdb.todos.insertOne({text: "Increase the number of b"})[54G[3G[Jdb.todos.insertOne({text: "Increase the number of "})[53G[3G[Jdb.todos.insertOne({text: "Increase the number of t"})[54G[3G[Jdb.todos.insertOne({text: "Increase the number of to"})[55G[3G[Jdb.todos.insertOne({text: "Increase the number of too"})[56G[3G[Jdb.todos.insertOne({text: "Increase the number of tool"})[57G[3G[Jdb.todos.insertOne({text: "Increase the number of tools"})[58G[3G[Jdb.todos.insertOne({text: "Increase the number of tools "})[59G[3G[Jdb.todos.insertOne({text: "Increase the number of tools i"})[60G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in"})[61G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in "})[62G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in t"})[63G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in to"})[64G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in too"})[65G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in tool"})[66G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in toolb"})[67G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in toolbe"})[68G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in toolbel"})[69G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in toolbelt"})[70G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt"})[71G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt",})[72G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", })[73G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", d})[74G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", do})[75G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", don})[76G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", done})[77G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", done:})[78G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", done: })[79G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", done: f})[80G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", done: fa})[81G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", done: fal})[82G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", done: fals})[83G[3G[Jdb.todos.insertOne([1;34m{[0mtext: "Increase the number of tools in toolbelt", done: false})[84G[3G[Jdb.todos.insertOne({text: "Increase the number of tools in toolbelt", done: false})[86G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("6266ab41583691945d8c65b9")
+}
+> todo[3G[Jdb.todos.insertOne({text: "Increase the number of tools in toolbelt", done: false})[86G[3G[Jdb.todos.find({})[20G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("62667f551cbcab0a7ed28257"), "text" : "💔", "done" : false }
+{ "_id" : ObjectId("62667f551cbcab0a7ed28258"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("6266ab41583691945d8c65b9"), "text" : "Increase the number of tools in toolbelt", "done" : false }
+> [3G[J[3G^C
+bye
+]0;root@b36cfe898075: /root@b36cfe898075:/# ^C
+]0;root@b36cfe898075: /root@b36cfe898075:/# exit
+exit
+[1m[7m%[27m[1m[0m                                                                                                                  ]2;dhatguy@Odunsi:/mnt/c/Users/oduns/Documents/workspace/part12-containers-applications/script-answers]1;..cript-answers[0m[27m[24m[J[39m[0m[49m[40m[39m [31m✘[40m[39m dhatguy@Odunsi [44m[30m[30m /mnt/c/Users/oduns/Documents/workspace/part12-containers-applications/script-answers [43m[34m[30m  main ± [49m[33m[39m [K[?1h=[?2004h[4me[24m[4me[24m[90mxit[39m[24m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2022-04-25 15:08:48+01:00 [COMMAND_EXIT_CODE="130"]
