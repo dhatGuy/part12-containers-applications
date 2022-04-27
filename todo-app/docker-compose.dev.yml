@@ -1,6 +1,6 @@
 services:
   todo-frontend:
-    image: hello-front-dev
+    image: todo-frontend
     build:
       context: ./todo-frontend
       dockerfile: dev.Dockerfile
@@ -8,6 +8,8 @@ services:
       - "3001:3000"
     volumes:
       - ./todo-frontend/:/usr/src/app
+    environment:
+      - REACT_APP_BACKEND_URL=/api/
 
   todo-backend:
     image: express-server
@@ -26,15 +28,17 @@ services:
       - mongo
   mongo:
     image: mongo
-    ports:
-      - 3456:27017
+    restart: always
+    container_name: todo-mongo
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
       MONGO_INITDB_DATABASE: the_database
     volumes:
       - ./todo-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
-      - ./todo-backend/mongo_data:/data/db
+      - ./mongo_data:/data/db
+    ports:
+      - 3456:27017
   redis:
     image: redis
     ports:
